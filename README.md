@@ -24,6 +24,7 @@ Developed by: VIGNESH.K
 RegisterNumber: 25018207
 */
 ```
+```
 import numpy as np
 import sys
 n=int(input())
@@ -47,6 +48,7 @@ for i in range(n-2, -1, -1):
     X[i] = X[i] / a[i][i]
 for i in range(n):
     print("X%d = %0.2f"%(i,X[i]),end=' ')
+```
 ## Output:
 
 <img width="1235" height="485" alt="Screenshot 2025-12-18 233252" src="https://github.com/user-attachments/assets/770783c8-8b33-4970-a537-36cc1fee69e7" />
